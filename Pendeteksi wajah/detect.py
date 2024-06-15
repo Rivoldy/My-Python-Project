@@ -25,7 +25,7 @@ while True:
     # Loop melalui setiap wajah yang terdeteksi
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
-        cv2.putText(frame, 'Wajah', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
+        cv2.putText(frame, 'wajah', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
 
         # Region of Interest untuk mulut dan mata
         roi_gray_mouth = gray[y + h//2:y+h, x:x+w]
