@@ -1,7 +1,7 @@
 import pyautogui
 import time
 
-Pesan = "oooo" 
+Pesan = "aku sayanggg gracee" 
 n = 1000
 
 print ("Siap-siap")
